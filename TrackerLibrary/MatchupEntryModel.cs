@@ -15,7 +15,7 @@ namespace TrackerLibrary
 
         /// <summary>
         /// Represent the score for a particular team
-        /// </summary> 
+        /// </summary>
         public double Score { get; set; }
 
         /// <summary>
