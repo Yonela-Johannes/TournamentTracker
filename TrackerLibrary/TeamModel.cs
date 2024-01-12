@@ -15,6 +15,7 @@ namespace TrackerLibrary
 
         /// <summary>
         /// Represents the name of a team
+
         /// </summary>
         public string TeamName { get; set; }
     }
