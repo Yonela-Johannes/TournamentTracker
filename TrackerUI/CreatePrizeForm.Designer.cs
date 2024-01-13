@@ -82,6 +82,7 @@
             createPrizeButton.TabIndex = 32;
             createPrizeButton.Text = "Create Prize";
             createPrizeButton.UseVisualStyleBackColor = true;
+            createPrizeButton.Click += createPrizeButton_Click;
             // 
             // placeNameInputValue
             // 
@@ -168,6 +169,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "CreatePrizeForm";
             Text = "Create Prize";
+            Load += CreatePrizeForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
